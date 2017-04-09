@@ -1,5 +1,8 @@
 package tanke;
 
+/**
+ * Festgeleglte Parameters, die fuer die Simulation noetig sind.
+ */
 public class Parameter {
     
     public static final int zeitTankenMin = 200; // Zeit, die der Fahrer mindetstens zum Tanken braucht in Sekunden
