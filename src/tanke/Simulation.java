@@ -135,7 +135,8 @@ public class Simulation {
             i++;
         }
         warteschlangeLaenge[3] = schlangeLaengeBerechnen(kasse);
-                String leftAlignFormat = "| %-4d | %-13d | %-13d | %-13d | %-13d |\n";
+
+        String leftAlignFormat = "| %-4d | %-13d | %-13d | %-13d | %-13d |\n";
         System.out.format(leftAlignFormat, takt, warteschlangeLaenge[0], warteschlangeLaenge[1], warteschlangeLaenge[2], warteschlangeLaenge[3]);
 
     }

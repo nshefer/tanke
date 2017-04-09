@@ -19,7 +19,8 @@ public class Schlange {
     }
 
     public void removeAuto(){
-        addWartezeit(autos.get(0).getStatusZeit());
+        //TODO: to discuss where we add Wartezeit
+        //addWartezeit(autos.get(0).getStatusZeit());
         //removed next line, added it directly to "addWartezeit" method
         //checkMaximaleWartezeit(autos.get(0).getStatusZeit());
         autos.remove(0);
